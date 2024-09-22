@@ -4,10 +4,10 @@
 #include<stdlib.h>
 #include <stddef.h>
 struct Type {
-    char object[20];
-    int price[20];
-    int order[20];
-    int num[20];
+    char object[50];//商品
+    int price[50];//价格
+    int order[50];//通道
+    int num[50];//数量
 	};
 void place(char object,int order,int price,int num);
 int main()
